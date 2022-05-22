@@ -20,7 +20,7 @@ Indíce
 
 ## 🖥️ Sobre o projeto 🖥️
 
-➡️ Desafio Final: calculadora - projedo idealizado para escolas que desejam ensiar os alunos do ensino fundamental [I e II] a usarem uma calculadora.
+➡️ Desafio Final: calculadora - projeto idealizado para escolas que desejam ensiar os alunos do ensino fundamental [I e II] a usarem uma calculadora.
 
 Projeto desenvolvido para o teste final do **Programa de Estágio da [IBlueConsulting](https://www.iblueconsulting.com.br/)**.
 
