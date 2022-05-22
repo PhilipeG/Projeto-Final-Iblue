@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #092f57;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.projetoFinal{
+  margin-top: 2px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 120px;
+  margin-left: 100px;
+  float: left;
+  display: flex;
+}
+
+.iConsulting{
+  margin-top: 200px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 120px;
+  margin-right: 100px;
+  float: right;
+  display: flex;
+}
+
+.iblue{
+  width: 1px;
+  height: 1px;
+  margin-top: 200px;
+  margin-left: 20px;
+  padding: 20px;
+  float: left;
+}
+
+.iblue2{
+  width: 1px;
+  height: 1px;
+  margin-top: 200px;
+  margin-left: 20px;
+  padding: 20px;
+  float: right;
+}
+
+
+
+/* degradê */
+.gradiente {
+  background-image: linear-gradient(to bottom, #0543c9, rgb(18, 123, 209), #40E0D0  );
+  background-clip: text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  color: black; /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+}
+
+
+
+
+@media (max-width: 1410px) {
+    .iConsulting{
+      font-size: 80px;
+    }
+
+    .projetoFinal{
+      font-size: 80px;
+    }
+  
+}
+
+@media (max-width: 1120px) {
+  .iConsulting{
+    font-size: 40px;
+  }
+
+  .projetoFinal{
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 868px) {
+  .iConsulting{
+    display: none;
+  }
+
+  .projetoFinal{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 868px) {
+  .responsivo{
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 868px) {
+  .responsivo{
+    display: none; 
+  }
+}
+
